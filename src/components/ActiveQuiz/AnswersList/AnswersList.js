@@ -10,6 +10,7 @@ return(
         key= {index}
         answer={answer}
         onAnswerClick={props.onAnswerClick}
+        state={props.state ? props.state[answer.id]: null}
         />
 )
         })}
